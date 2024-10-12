@@ -904,7 +904,7 @@ MonoBehaviour:
   _playButton: {fileID: 675698654}
   gpsLat: 53.856562969033305
   gpsLong: 10.697463738097692
-  gpsDistanceInKM: 0.01
+  gpsDistanceInKM: 0.1
   debugTxt: {fileID: 798040102}
   gps_ok: 0
 --- !u!1 &988648142

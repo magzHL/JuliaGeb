@@ -33,13 +33,13 @@ public class ScenesManager : MonoBehaviour
         Hunt01,  //index 1
         Hunt01AR,
         Hunt02,
-        Hunt02AR
-        /**
+        Hunt02AR,
         Hunt03,
+        Hunt03AR,
         Hunt04,
+        Hunt04AR,
         Hunt05,
-        HuntDone
-        **/
+        Hunt05AR
     }
 
     public void LoadScene(Scene scene)

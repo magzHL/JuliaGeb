@@ -23,6 +23,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hunt02AR.unity
     guid: 0eef1b4a8b3f16a4499ea493b89688cf
+  - enabled: 1
+    path: Assets/Scenes/Hunt03.unity
+    guid: 83d1c9a4cd905fb449bb2d988370d6ca
+  - enabled: 1
+    path: Assets/Scenes/Hunt03AR.unity
+    guid: c3c16e76d72832f46b576ab93a7e804d
+  - enabled: 1
+    path: Assets/Scenes/Hunt04.unity
+    guid: b394f2a76cb9dee4295218359fe8096d
+  - enabled: 1
+    path: Assets/Scenes/Hunt04AR.unity
+    guid: c26a6bda37ae5934fad58852d52c4a08
+  - enabled: 1
+    path: Assets/Scenes/Hunt05.unity
+    guid: cb255cf5ec430274e9fdcbe5db9edd4c
+  - enabled: 1
+    path: Assets/Scenes/Hunt05AR.unity
+    guid: b701a26b420840c4bbeb07d9ee132cb4
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: df5e8da435bb0164cb9efbb6f27deca0, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: de2718883e1ce1b408bb14cce5f68709, type: 2}

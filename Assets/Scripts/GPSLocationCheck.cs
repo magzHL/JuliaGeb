@@ -12,6 +12,7 @@ public class GPSLocationCheck : MonoBehaviour
     public Button _playButton;
     public double gpsLat;
     public double gpsLong;
+    public float gpsDistanceInKM;
     private char unit = 'K';
 
     bool createdARO = false;
@@ -105,24 +106,10 @@ public class GPSLocationCheck : MonoBehaviour
             currLoc.lon = Input.location.lastData.longitude;
 
 
-            //debugTxt.text += "\nStored: " + startLoc.getLocData();
-
-            /**
-            if (measureDistance == true)
-            {
-                double distanceBetween = distance((double)currLoc.lat, (double)currLoc.lon, (double)startLoc.lat, (double)startLoc.lon, 'K');
-
-                debugTxt.text += "\nDistance: " + distanceBetween;
-            }
-            53.85621236857524, 10.697807456085588
-            53.856562969033305, 10.697463738097692
-            **/
-
-            //double distanceBetween = distance((double)currLoc.lat, (double)currLoc.lon, (double)53.856562969033305, (double)10.697463738097692, 'K');
             double distanceBetween = distance((double)currLoc.lat, (double)currLoc.lon, (double)gpsLat, (double)gpsLong, 'K');
             debugTxt.text += "\nDistance: " + distanceBetween;
 
-            if (distanceBetween < 0.1)
+            if (distanceBetween < gpsDistanceInKM)
             {
                 insideDistance = true;
                 debugTxt.text += "\nOrt gefunden!";
@@ -131,6 +118,7 @@ public class GPSLocationCheck : MonoBehaviour
             else
             {
                 insideDistance = false;
+                debugTxt.text += "\nNoch zu weit vom gesuchten Ort entfernt.";
                 _playButton.gameObject.SetActive(false);
             }
 

@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 1447761385841243643}
-  _fileToPlay: {fileID: 8300000, guid: e5f7a9129654617488fb9b6f13407565, type: 3}
+  _fileToPlay: {fileID: 8300000, guid: de711fe5aab4b304093f4079b1fa072d, type: 3}
 --- !u!1 &720982362506329409
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1c64c89b1d94fad448930e76a28871f2, type: 2}
+  - {fileID: 2100000, guid: c0fd5ce70a3bdbe4d92f4aac8b764571, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -569,7 +569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3761142010822173172}
   m_Layer: 0
-  m_Name: GPS_prefab_01
+  m_Name: GPS_prefab_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

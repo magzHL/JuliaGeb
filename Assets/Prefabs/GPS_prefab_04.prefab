@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 1447761385841243643}
-  _fileToPlay: {fileID: 8300000, guid: e5f7a9129654617488fb9b6f13407565, type: 3}
+  _fileToPlay: {fileID: 8300000, guid: 9402e3e2f4684dd4781d1863acdf2154, type: 3}
 --- !u!1 &720982362506329409
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,8 +178,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 0.63, y: 0.38414633, z: 0.38414633}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.3841463, y: 0.38414633, z: 0.38414633}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3761142010822173172}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -211,7 +211,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1c64c89b1d94fad448930e76a28871f2, type: 2}
+  - {fileID: 2100000, guid: cd7de6a61b2822643b20f47bfa8933d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -569,7 +569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3761142010822173172}
   m_Layer: 0
-  m_Name: GPS_prefab_01
+  m_Name: GPS_prefab_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
