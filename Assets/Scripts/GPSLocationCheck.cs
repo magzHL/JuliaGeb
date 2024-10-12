@@ -13,6 +13,7 @@ public class GPSLocationCheck : MonoBehaviour
     public double gpsLat;
     public double gpsLong;
     public float gpsDistanceInKM;
+    public string gpsHint;
     private char unit = 'K';
 
     bool createdARO = false;
@@ -119,6 +120,8 @@ public class GPSLocationCheck : MonoBehaviour
             {
                 insideDistance = false;
                 debugTxt.text += "\nNoch zu weit vom gesuchten Ort entfernt.";
+                debugTxt.text += "\nHinweis: ";
+                debugTxt.text += gpsHint;
                 _playButton.gameObject.SetActive(false);
             }
 

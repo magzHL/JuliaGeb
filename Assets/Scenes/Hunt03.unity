@@ -902,9 +902,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 675698654}
-  gpsLat: 53.856562969033305
-  gpsLong: 10.697463738097692
-  gpsDistanceInKM: 0.1
+  gpsLat: 53.85799331876288
+  gpsLong: 10.683223680677889
+  gpsDistanceInKM: 0.015
+  gpsHint: Boot
   debugTxt: {fileID: 798040102}
   gps_ok: 0
 --- !u!1 &988648142
