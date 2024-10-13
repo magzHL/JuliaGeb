@@ -902,8 +902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 675698654}
-  gpsLat: 53.86097505360398
-  gpsLong: 10.696939435959049
+  gpsLat: 53.860054722783836
+  gpsLong: 10.696624509258914
   gpsDistanceInKM: 0.015
   gpsHint: Pizza
   debugTxt: {fileID: 798040102}

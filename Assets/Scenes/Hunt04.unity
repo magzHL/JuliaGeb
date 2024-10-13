@@ -902,8 +902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 675698654}
-  gpsLat: 53.8474267194576
-  gpsLong: 10.703188475114485
+  gpsLat: 53.84674504245069
+  gpsLong: 10.703380911461437
   gpsDistanceInKM: 0.015
   gpsHint: Wurm
   debugTxt: {fileID: 798040102}

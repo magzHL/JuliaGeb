@@ -902,8 +902,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 675698654}
-  gpsLat: 53.85484825398451
-  gpsLong: 10.727913775808885
+  gpsLat: 53.853331498326206
+  gpsLong: 10.727766860452688
   gpsDistanceInKM: 0.015
   gpsHint: Baden
   debugTxt: {fileID: 798040102}

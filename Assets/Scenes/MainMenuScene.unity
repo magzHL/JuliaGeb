@@ -878,15 +878,15 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: Intro
       m_Image: {fileID: 0}
-    - m_Text: GPS1
+    - m_Text: GPS1 HL
       m_Image: {fileID: 0}
-    - m_Text: GPS2
+    - m_Text: GPS2 HL
       m_Image: {fileID: 0}
-    - m_Text: GPS3
+    - m_Text: GPS3 HL
       m_Image: {fileID: 0}
-    - m_Text: GPS4
+    - m_Text: GPS4 HL
       m_Image: {fileID: 0}
-    - m_Text: GPS5
+    - m_Text: GPS5 HL
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
